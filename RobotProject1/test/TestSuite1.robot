@@ -14,9 +14,12 @@ MyFirstTest
     Log    Hello World...   
     
 MySecondTest
-    Log    Hello World...
+    Log    Second test
     Set Tags    regression1
     # Remove Tags    regression1
+    
+MyThirdTest
+    Log    Third test
     
 # FirstSeleniumTest
     # Open Browser    https://www.google.com    chrome     options=add_experimental_option("detach", True)
